@@ -13,22 +13,18 @@ import { CreateManager } from "./Components/CreateManager"
 
 export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Auth />} />
+        <Route path="/passwordreset" element={<PasswordReset />} />
+        <Route path="/manager" element={<Manager />} />
+        <Route path="/createemployee" element={<CreateEmployee />} />
+        <Route path="/generatereport" element={<GenerateReport />} />
+        <Route path="/employee" element={<Employee />} />
+        <Route path="/admin" element={<Admin />} />
+        <Route path="/createmanager" element={<CreateManager />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
