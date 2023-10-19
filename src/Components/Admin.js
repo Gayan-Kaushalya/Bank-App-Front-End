@@ -1,7 +1,7 @@
 import React from 'react';
 import './Parts.css';
 
-export function Employee() {
+export function Admin() {
     const htmlContent = `
         <!DOCTYPE html>
         <html>
@@ -10,10 +10,10 @@ export function Employee() {
             </head>
             <body>
                 <div class="Auth-form-container">
-                    <form class="Auth-form" action="/Employee">
+                    <form class="Auth-form" action="/Admin">
                         <div class="Auth-form-content">
                             <h3 class="Auth-form-title" align="center">Welcome Back!</h3>                   
-                            <button class="button" style="vertical-align:middle" formAction="/CreateCustomer"><span>Open an Account</span></button><br>
+                            <button class="button" style="vertical-align:middle" formAction="/CreateManager"><span>Create a Manager Account</span></button><br>
                             <button class="button" style="vertical-align:middle" formAction="/"><span>Log Out</span></button>                          
                         </div>
                     </form>

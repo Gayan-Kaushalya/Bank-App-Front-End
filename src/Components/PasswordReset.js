@@ -1,13 +1,12 @@
 import React from "react";
 
-
-
-export default function (props){
+export default function PasswordReset(){
     return (
         <div className="Auth-form-container">
-            <form className="Auth-form">
+            <form className="Auth-form-small">
                 <div className="Auth-form-content">
-                    <h3 className="Auth-form-title">Recover Your Password</h3>
+                    <h3 className="Auth-form-title">Reset Your Password</h3>
+
                     <div className="form-group mt-3">
                         <label>Email</label>
                         <input
@@ -16,6 +15,25 @@ export default function (props){
                             placeholder="Enter email"
                         />
                     </div>
+
+                    <div className="form-group mt-3">
+                        <label>Password</label>
+                        <input
+                            type="password"
+                            className="form-control mt-1"
+                            placeholder="Enter password"
+                        />
+                    </div>
+
+                    <div className="form-group mt-3">
+                        <label>Confirm Password</label>
+                        <input
+                            type="password"
+                            className="form-control mt-1"
+                            placeholder="Confirm password"
+                        />
+                    </div>
+
                     <div className="d-grid gap-2 mt-3">                       
                         <button formAction="/" type="submit" className="btn btn-primary">
                             Submit
