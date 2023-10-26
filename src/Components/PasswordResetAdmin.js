@@ -35,7 +35,7 @@ export default function PasswordResetAdmin(){
                     </div>
 
                     <div className="d-grid gap-2 mt-3">                       
-                        <button formAction="/Admin" type="submit" className="btn btn-primary">
+                        <button formAction="/AdminAuth" type="submit" className="btn btn-primary">
                             Submit
                         </button>                       
                     </div>

@@ -35,7 +35,7 @@ export default function PasswordResetCustomer(){
                     </div>
 
                     <div className="d-grid gap-2 mt-3">                       
-                        <button formAction="/Customer" type="submit" className="btn btn-primary">
+                        <button formAction="/CustomerAuth" type="submit" className="btn btn-primary">
                             Submit
                         </button>                       
                     </div>
