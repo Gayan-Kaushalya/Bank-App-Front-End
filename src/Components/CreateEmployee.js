@@ -81,7 +81,7 @@ export function CreateEmployee() {
                                         type="text"
                                         className="form-control mt-1"
                                         placeholder="Enter telephone number"
-                                        required
+                                         
                                     />
                                 </div>
                             </div>
@@ -94,7 +94,7 @@ export function CreateEmployee() {
                                         type="text"
                                         className="form-control mt-1"
                                         placeholder="Enter address"
-                                        required
+                                         
                                     />
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ export function CreateEmployee() {
                                         placeholder="Enter email address"
                                         size="48"
                                         
-                                        required
+                                         
                                     />
                                 </div>
                             </div>
@@ -121,7 +121,7 @@ export function CreateEmployee() {
                                     <input
                                         type="date"
                                         className="form-control mt-1"
-                                        required
+                                         
                                     />
                                 </div>
                             </div>
@@ -145,7 +145,7 @@ export function CreateEmployee() {
                                     type="text"
                                     className="form-control mt-1"
                                     placeholder="Enter username"
-                                    required
+                                     
                                 />
                             </div>
                         </div>
@@ -159,7 +159,7 @@ export function CreateEmployee() {
                                 className="form-control mt-1"
                                 placeholder="Enter password"
                                 size ="48"
-                                required
+                                 
                             />
                         </div>
                     </div>

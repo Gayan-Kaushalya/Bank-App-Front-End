@@ -30,8 +30,7 @@ export function GenerateReport() {
                                     <div class="col-75">
                                     <input
                                         type="date"
-                                        className="form-control mt-1"
-                                        required
+                                        className="form-control mt-1"                                        
                                     />
                                 </div>
                             </div>
@@ -42,8 +41,7 @@ export function GenerateReport() {
                                     <div class="col-75">
                                     <input
                                         type="date"
-                                        className="form-control mt-1"
-                                        required
+                                        className="form-control mt-1"                                         
                                     />
                                 </div>
                             </div>
@@ -51,6 +49,7 @@ export function GenerateReport() {
                             <div class="row">
                                 <input type="submit" value="Generate">
                             </div>
+                            <button class="backbutton" style="vertical-align:middle" formAction="/Manager"><span>Back </span></button>
                             
                         </div>
                     </form>
