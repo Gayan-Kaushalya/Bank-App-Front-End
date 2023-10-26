@@ -43,7 +43,7 @@
     padding-top: 30px;
     padding-bottom: 20px;
     border-radius: 8px;
-    background-color: rgba(84,198,221,1);
+    background-color: rgba(84,198,221,0.737);
 }
 
 .Auth-form-content {
