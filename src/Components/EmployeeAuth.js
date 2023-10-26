@@ -36,7 +36,7 @@ export default function (props) {
             </div>
 
           <p className="forgot-password text-mid mt-3" align="center">
-             <a href="/PasswordReset"  style={{ color: "black" }}>Forgot password?</a>
+             <a href="/PasswordResetEmployee"  style={{ color: "black" }}>Forgot password?</a>
           </p>
 
         </div>

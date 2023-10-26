@@ -15,6 +15,9 @@ import  AdminAuth  from "./Components/AdminAuth"
 import { Customer }  from "./Components/Customer"
 import  CustomerAuth  from "./Components/CustomerAuth"
 import EmployeeAuth from "./Components/EmployeeAuth"
+import PasswordResetAdmin from "./Components/PasswordResetAdmin"
+import PasswordResetCustomer from "./Components/PasswordResetCustomer"
+import PasswordResetEmployee from "./Components/PasswordResetEmployee"
 
 export default function App() {
   return (
@@ -34,6 +37,9 @@ export default function App() {
         <Route path="/customer" element={<Customer />} />
         <Route path="/customerauth" element={<CustomerAuth />} />
         <Route path="/employeeauth" element={<EmployeeAuth />} />
+        <Route path="/passwordresetadmin" element={<PasswordResetAdmin />} />
+        <Route path="/passwordresetcustomer" element={<PasswordResetCustomer />} />
+        <Route path="/passwordresetemployee" element={<PasswordResetEmployee />} />
       </Routes>
     </BrowserRouter>
   );

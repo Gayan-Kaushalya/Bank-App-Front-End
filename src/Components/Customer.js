@@ -10,7 +10,7 @@ export function Customer() {
             </head>
             <body>
                 <div class="Auth-form-container">
-                    <form class="Auth-form" action="/Manager">
+                    <form class="Auth-form" action="/Customer">
                         <div class="Auth-form-content">
                             <h3 class="Auth-form-title" align="center">Welcome Back!</h3>                   
                             <button class="button" style="vertical-align:middle" formAction="/CreateEmployee"><span>Create an Employee Account </span></button><br>

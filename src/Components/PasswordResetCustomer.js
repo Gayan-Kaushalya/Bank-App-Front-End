@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function PasswordReset(){
+export default function PasswordResetCustomer(){
     return (
         <div className="Auth-form-container">
             <form className="Auth-form-small">
@@ -35,7 +35,7 @@ export default function PasswordReset(){
                     </div>
 
                     <div className="d-grid gap-2 mt-3">                       
-                        <button formAction="/Manager" type="submit" className="btn btn-primary">
+                        <button formAction="/Customer" type="submit" className="btn btn-primary">
                             Submit
                         </button>                       
                     </div>
