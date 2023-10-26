@@ -103,7 +103,7 @@ right: 0;
 
 .backbutton {
     display: inline-block;
-    border-radius: 50px;
+    border-radius: 100px;
     background-color: orange;
     border: none;
     color: #000000;
@@ -140,6 +140,51 @@ padding-right: 25px;
 opacity: 1;
 right: 0;                   
 }
+
+/* Small backbutton */
+.backbutton-small{
+    display: inline-block;
+    border-radius: 100px;
+    background-color: orange;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.backbutton-small span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.backbutton-small span:after {
+content: '«';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.backbutton-small:hover span {
+padding-right: 25px;
+}
+
+.backbutton-small:hover span:after {
+opacity: 1;
+right: 0;                   
+}
+
+
+
+
 
 /* Label */
 
