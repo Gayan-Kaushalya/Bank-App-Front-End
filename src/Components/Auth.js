@@ -31,6 +31,10 @@ export default function (props) {
             </button>
           </div>
 
+          <div className="d-grid gap-2 mt-3">
+            <button className="backbutton-small" style={{ verticalAlign: "middle" }} formAction="/" type="submit"><span>Back </span></button>
+          </div>
+
           <p className="forgot-password text-mid mt-3" align="center">
              <a href="/PasswordReset"  style={{ color: "black" }}>Forgot password?</a>
           </p>
