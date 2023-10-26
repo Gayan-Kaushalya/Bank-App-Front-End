@@ -7,7 +7,7 @@ export function CreateManager() {
         <html>
             <body>
                 <div class="Auth-form-container-big">
-                    <form class="Auth-form" action="/Manager">
+                    <form class="Auth-form" action="/Admin">
                         <div class="Auth-form-content">
                             <h3 class="Auth-form-title" align="center">Fill the details of the manager</h3>
 
@@ -168,6 +168,9 @@ export function CreateManager() {
                             <div class="row">
                                 <input type="submit" value="Submit">
                             </div>
+
+                            <br>
+                            <button class="backbutton" formAction="/Admin" type="submit" color=green><span>Back </span></button>
                             
                         </div>
                     </form>

@@ -107,9 +107,7 @@ export function CreateEmployee() {
                                         type="email"
                                         className="form-control mt-1"
                                         placeholder="Enter email address"
-                                        size="48"
-                                        
-                                         
+                                        size="48"                                         
                                     />
                                 </div>
                             </div>
@@ -120,8 +118,7 @@ export function CreateEmployee() {
                                     <div class="col-75">
                                     <input
                                         type="date"
-                                        className="form-control mt-1"
-                                         
+                                        className="form-control mt-1"                                        
                                     />
                                 </div>
                             </div>
@@ -144,8 +141,7 @@ export function CreateEmployee() {
                                 <input
                                     type="text"
                                     className="form-control mt-1"
-                                    placeholder="Enter username"
-                                     
+                                    placeholder="Enter username"                                     
                                 />
                             </div>
                         </div>
@@ -158,8 +154,7 @@ export function CreateEmployee() {
                                 type="password"
                                 className="form-control mt-1"
                                 placeholder="Enter password"
-                                size ="48"
-                                 
+                                size ="48"                                
                             />
                         </div>
                     </div>
@@ -168,8 +163,12 @@ export function CreateEmployee() {
                             <div class="row">
                                 <input type="submit" value="Submit">
                             </div>
+
+                            <br>
                             
-                        </div>
+                                <button class="backbutton" formAction="/Manager" type="submit" color=green><span>Back </span></button>
+                            
+                    
                     </form>
                 </div>
             </body>
