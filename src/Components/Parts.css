@@ -27,6 +27,20 @@
     background-size: cover;
 }
 
+.Auth-form-container-medium  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 125vh;
+    color: maroon;
+    background-image: url(https://i.pinimg.com/originals/8c/95/2b/8c952b205b4ad83285116fff6b121795.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
 
 .Auth-form {
     width: 700px;
