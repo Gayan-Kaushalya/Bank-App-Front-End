@@ -18,6 +18,11 @@ import EmployeeAuth from "./Components/EmployeeAuth"
 import PasswordResetAdmin from "./Components/PasswordResetAdmin"
 import PasswordResetCustomer from "./Components/PasswordResetCustomer"
 import PasswordResetEmployee from "./Components/PasswordResetEmployee"
+import { ChooseCustomer } from "./Components/ChooseCustomer"
+import { CreateCustomer } from "./Components/CreateCustomer"
+import { CreateOrganization } from "./Components/CreateOrganization"
+import { CustomerOpinion } from "./Components/CustomerOpinion"
+import { CreateUser } from "./Components/CreateUser"
 
 export default function App() {
   return (
@@ -40,6 +45,11 @@ export default function App() {
         <Route path="/passwordresetadmin" element={<PasswordResetAdmin />} />
         <Route path="/passwordresetcustomer" element={<PasswordResetCustomer />} />
         <Route path="/passwordresetemployee" element={<PasswordResetEmployee />} />
+        <Route path="/choosecustomer" element={<ChooseCustomer />} />
+        <Route path="/createcustomer" element={<CreateCustomer />} />
+        <Route path="/createorganization" element={<CreateOrganization />} />
+        <Route path="/customeropinion" element={<CustomerOpinion />} />
+        <Route path="/createuser" element={<CreateUser />} />
       </Routes>
     </BrowserRouter>
   );

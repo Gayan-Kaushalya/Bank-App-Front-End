@@ -1,13 +1,13 @@
 import React from 'react';
 import './Parts.css'
 
-export function CreateEmployee() {
+export function CreateOrganization() {
     const htmlContent = `
         <!DOCTYPE html>
         <html>
             <body>
                 <div class="Auth-form-container-big">
-                    <form class="Auth-form" action="/Manager">
+                    <form class="Auth-form" action="/Employee">
                         <div class="Auth-form-content">
                             <h3 class="Auth-form-title" align="center">Fill the details of your employee</h3>
 
@@ -146,29 +146,26 @@ export function CreateEmployee() {
                             </div>
                         </div>
 
-                        <div class="row">                               
-                            <div class="col-25">
-                                <label>Password</label> </div>
-                                <div class="col-75">
-                                <input
-                                    type="password"
-                                    className="form-control mt-1"
-                                    placeholder="Enter password"
-                                    size ="48"                                
-                                />
+                            <div class="row">                               
+                                <div class="col-25">
+                                    <label>Password</label> </div>
+                                    <div class="col-75">
+                                    <input
+                                        type="password"
+                                        className="form-control mt-1"
+                                        placeholder="Enter password"
+                                        size ="48"                                
+                                    />
+                                </div>
                             </div>
-                        </div>
 
                             <br>
                             <div class="row">
                                 <input type="submit" value="Submit">
                             </div>
-
-                            <br>
-                            
-                                <button class="backbutton" formAction="/Manager" type="submit" color=green><span>Back </span></button>
-                            
-                    
+                            <br>    
+                                                   
+                                <button class="backbutton" formAction="/ChooseCustomer" type="submit" color=green><span>Back </span></button>                    
                     </form>
                 </div>
             </body>

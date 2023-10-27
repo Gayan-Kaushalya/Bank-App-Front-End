@@ -1,15 +1,15 @@
 import React from 'react';
 import './Parts.css'
 
-export function CreateEmployee() {
+export function CreateCustomer() {
     const htmlContent = `
         <!DOCTYPE html>
         <html>
             <body>
-                <div class="Auth-form-container-big">
-                    <form class="Auth-form" action="/Manager">
+                <div class="Auth-form-container-medium">
+                    <form class="Auth-form" action="/CustomerOpinion">
                         <div class="Auth-form-content">
-                            <h3 class="Auth-form-title" align="center">Fill the details of your employee</h3>
+                            <h3 class="Auth-form-title" align="center">Fill the details of the customer</h3>
 
                             <div class="row">                               
                                 <div class="col-25">
@@ -43,22 +43,6 @@ export function CreateEmployee() {
                                     className="form-control mt-1"
                                     placeholder="Enter last name"
                                 /></div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-25">
-                                    <label for="branch">Branch</label>
-                                </div>
-                                <div class="col-75">
-                                    <select id="branch" name="branch">
-                                        <option value="none">Choose an option</option>
-                                        <option value="anseboileau">Anse Boileau</option>
-                                        <option value="glacis">Glacis</option>
-                                        <option value="plaisance">Plaisance</option>
-                                        <option value="Takamaka">Takamaka</option>
-                                        <option value="victoria">Victoria</option>
-                                    </select>
-                                </div>
                             </div>
 
                             <div class="row">                               
@@ -101,19 +85,6 @@ export function CreateEmployee() {
 
                             <div class="row">                               
                                 <div class="col-25">
-                                    <label>Email Address</label> </div>
-                                    <div class="col-75">
-                                    <input
-                                        type="email"
-                                        className="form-control mt-1"
-                                        placeholder="Enter email address"
-                                        size="48"                                         
-                                    />
-                                </div>
-                            </div>
-
-                            <div class="row">                               
-                                <div class="col-25">
                                     <label>Date of Birth</label> </div>
                                     <div class="col-75">
                                     <input
@@ -134,31 +105,6 @@ export function CreateEmployee() {
                             </div>
                             </div>
 
-                            <div class="row">                               
-                            <div class="col-25">
-                                <label>Username</label> </div>
-                                <div class="col-75">
-                                <input
-                                    type="text"
-                                    className="form-control mt-1"
-                                    placeholder="Enter username"                                     
-                                />
-                            </div>
-                        </div>
-
-                        <div class="row">                               
-                            <div class="col-25">
-                                <label>Password</label> </div>
-                                <div class="col-75">
-                                <input
-                                    type="password"
-                                    className="form-control mt-1"
-                                    placeholder="Enter password"
-                                    size ="48"                                
-                                />
-                            </div>
-                        </div>
-
                             <br>
                             <div class="row">
                                 <input type="submit" value="Submit">
@@ -166,7 +112,7 @@ export function CreateEmployee() {
 
                             <br>
                             
-                                <button class="backbutton" formAction="/Manager" type="submit" color=green><span>Back </span></button>
+                                <button class="backbutton" formAction="/ChooseCustomer" type="submit" color=green><span>Back </span></button>
                             
                     
                     </form>
