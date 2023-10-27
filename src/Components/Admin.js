@@ -14,6 +14,7 @@ export function Admin() {
                         <div class="Auth-form-content">
                             <h3 class="Auth-form-title" align="center">Welcome Back!</h3>                   
                             <button class="button" style="vertical-align:middle" formAction="/CreateManager"><span>Create a Manager Account</span></button><br>
+                            <button class="button" style="vertical-align:middle" formAction="/CreateEmployee"><span>Create an Employee Account</span></button><br>
                             <button class="button" style="vertical-align:middle" formAction="/"><span>Log Out</span></button>                          
                         </div>
                     </form>

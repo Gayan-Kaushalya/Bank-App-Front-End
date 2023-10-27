@@ -13,7 +13,6 @@ export function Manager() {
                     <form class="Auth-form" action="/Manager">
                         <div class="Auth-form-content">
                             <h3 class="Auth-form-title" align="center">Welcome Back!</h3>                   
-                            <button class="button" style="vertical-align:middle" formAction="/CreateEmployee"><span>Create an Employee Account </span></button><br>
                             <button class="button" style="vertical-align:middle" formAction="/GenerateReport"><span>Generate a Report </span></button><br>
                             <button class="button" style="vertical-align:middle" formAction="/"><span>Log Out</span></button>                          
                         </div>
