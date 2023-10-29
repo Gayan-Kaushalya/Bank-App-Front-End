@@ -11,18 +11,6 @@ export function CreateEmployee() {
                         <div class="Auth-form-content">
                             <h3 class="Auth-form-title" align="center">Fill the details of your employee</h3>
 
-                            <div class="row">                               
-                                <div class="col-25">
-                                    <label>Employee ID</label> </div>
-                                    <div class="col-75">
-                                    <input
-                                        type="number"
-                                        className="form-control mt-1"
-                                        placeholder="Enter ID"
-                                    />
-                                </div>
-                            </div>
-
                             <div class="row">
                             <div class="col-25">
                                 <label>First Name</label> </div>
