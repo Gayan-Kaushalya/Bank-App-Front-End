@@ -14,7 +14,7 @@ export function Employee() {
                         <div class="Auth-form-content">
                             <h3 class="Auth-form-title" align="center">Welcome Back!</h3>
                             <button class="button" style="vertical-align:middle" formAction="/ChooseCustomer"><span>Register a New Customer</span></button><br>                   
-                            <button class="button" style="vertical-align:middle" formAction="/ChooseCustomer"><span>Open an Account</span></button><br>
+                            <button class="button" style="vertical-align:middle" formAction="/ChooseAccount"><span>Open a New Bank Account</span></button><br>
                             <button class="button" style="vertical-align:middle" formAction="/"><span>Log Out</span></button>                          
                         </div>
                     </form>
