@@ -11,66 +11,15 @@ export function CreateOrganization() {
                         <div class="Auth-form-content">
                             <h3 class="Auth-form-title" align="center">Fill the details of the Organization</h3>
 
-                            <div class="row">                               
-                                <div class="col-25">
-                                    <label>Employee ID</label> </div>
-                                    <div class="col-75">
-                                    <input
-                                        type="number"
-                                        className="form-control mt-1"
-                                        placeholder="Enter ID"
-                                    />
-                                </div>
-                            </div>
-
                             <div class="row">
                             <div class="col-25">
-                                <label>First Name</label> </div>
+                                <label>Organization Name</label> </div>
                                 <div class="col-75">
                                 <input
                                     type="text"
                                     className="form-control mt-1"
-                                    placeholder="Enter first name"
+                                    placeholder="Enter organization name"
                                 /></div>
-                            </div>
-
-                            <div class="row">
-                            <div class="col-25">
-                                <label>Last Name</label> </div>
-                                <div class="col-75">
-                                <input
-                                    type="text"
-                                    className="form-control mt-1"
-                                    placeholder="Enter last name"
-                                /></div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-25">
-                                    <label for="branch">Branch</label>
-                                </div>
-                                <div class="col-75">
-                                    <select id="branch" name="branch">
-                                        <option value="none">Choose an option</option>
-                                        <option value="anseboileau">Anse Boileau</option>
-                                        <option value="glacis">Glacis</option>
-                                        <option value="plaisance">Plaisance</option>
-                                        <option value="Takamaka">Takamaka</option>
-                                        <option value="victoria">Victoria</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            <div class="row">                               
-                                <div class="col-25">
-                                    <label>NIC Number</label> </div>
-                                    <div class="col-75">
-                                    <input
-                                        type="text"
-                                        className="form-control mt-1"
-                                        placeholder="Enter NIC number"
-                                    />
-                                </div>
                             </div>
                             
                             <div class="row">                               
@@ -113,26 +62,16 @@ export function CreateOrganization() {
                             </div>
 
                             <div class="row">                               
-                                <div class="col-25">
-                                    <label>Date of Birth</label> </div>
-                                    <div class="col-75">
-                                    <input
-                                        type="date"
-                                        className="form-control mt-1"                                        
-                                    />
-                                </div>
-                            </div>
-
-                            <div class="row">                               
                             <div class="col-25">
-                                <label>Gender</label> </div>
-                                    <div class="col-75">
-                                    <input type="radio" id="male" name="gender" value="Male">
-                                    <label for="male">Male</label>
-                                    <input type="radio" id="female" name="gender" value="Female">
-                                    <label for="female">Female</label><br>
+                                <label>Responsible Person ID</label> </div>
+                                <div class="col-75">
+                                <input
+                                    type="number"
+                                    className="form-control mt-1"
+                                    placeholder="Enter ID"
+                                />
                             </div>
-                            </div>
+                        </div>
 
                             <div class="row">                               
                             <div class="col-25">
