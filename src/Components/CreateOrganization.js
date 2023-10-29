@@ -29,8 +29,7 @@ export function CreateOrganization() {
                                     <input
                                         type="text"
                                         className="form-control mt-1"
-                                        placeholder="Enter telephone number"
-                                         
+                                        placeholder="Enter telephone number"                                        
                                     />
                                 </div>
                             </div>
