@@ -1,4 +1,5 @@
 import React from "react";
+import "./Parts.css";
 
 export default function (props) {
   return (
@@ -33,7 +34,11 @@ export default function (props) {
 
           <div className="d-grid gap-2 mt-3">
             <button className="backbutton-small" style={{ verticalAlign: "middle" }} formAction="/" type="submit"><span>Back </span></button>
-            </div>
+          </div>
+
+          <p className="forgot-password text-mid mt-3" align="center">
+            <a href="/ManualAccount"  style={{ color: "black" }}>New to this platform? Create an account.</a>
+          </p>
 
           <p className="forgot-password text-mid mt-3" align="center">
              <a href="/PasswordResetCustomer"  style={{ color: "black" }}>Forgot password?</a>
