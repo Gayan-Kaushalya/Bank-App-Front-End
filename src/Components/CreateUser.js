@@ -52,6 +52,20 @@ export function CreateUser() {
                 </div>
               </div>
 
+              <div class="row">
+                <div class="col-25">
+                  <label>Confirm Password</label>
+                </div>
+                <div class="col-75">
+                  <input
+                    type="password"
+                    className="form-control mt-1"
+                    placeholder="Confirm password"
+                    size="48"
+                  />
+                </div>
+              </div>
+
               <br>
               <div class="row">
                 <input type="submit" value="Submit">

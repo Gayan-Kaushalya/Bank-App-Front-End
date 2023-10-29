@@ -9,7 +9,7 @@ export function CreateOrganization() {
                 <div class="Auth-form-container-big">
                     <form class="Auth-form" action="/Employee">
                         <div class="Auth-form-content">
-                            <h3 class="Auth-form-title" align="center">Fill the details of your employee</h3>
+                            <h3 class="Auth-form-title" align="center">Fill the details of the Organization</h3>
 
                             <div class="row">                               
                                 <div class="col-25">
@@ -158,6 +158,20 @@ export function CreateOrganization() {
                                     />
                                 </div>
                             </div>
+
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label>Confirm Password</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <input
+                                            type="password"
+                                            className="form-control mt-1"
+                                            placeholder="Confirm password"
+                                            size="48"
+                                        />
+                                    </div>
+                                </div>
 
                             <br>
                             <div class="row">

@@ -75,105 +75,148 @@ export function CreateEmployee() {
                             
                             <div class="row">                               
                                 <div class="col-25">
-                                    <label>Telephone Number</label> </div>
-                                    <div class="col-75">
+                                    <label>First Name</label>
+                                </div>
+                                <div class="col-75">
                                     <input
                                         type="text"
                                         className="form-control mt-1"
-                                        placeholder="Enter telephone number"
-                                         
+                                        placeholder="Enter first name"
                                     />
                                 </div>
-                            </div>
 
-                            <div class="row">                               
-                                <div class="col-25">
-                                    <label>Address</label> </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label>Last Name</label>
+                                    </div>
                                     <div class="col-75">
-                                    <input
-                                        type="text"
-                                        className="form-control mt-1"
-                                        placeholder="Enter address"
-                                         
-                                    />
+                                        <input
+                                            type="text"
+                                            className="form-control mt-1"
+                                            placeholder="Enter last name"
+                                        />
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="row">                               
-                                <div class="col-25">
-                                    <label>Email Address</label> </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label>Telephone Number</label>
+                                    </div>
                                     <div class="col-75">
-                                    <input
-                                        type="email"
-                                        className="form-control mt-1"
-                                        placeholder="Enter email address"
-                                        size="48"                                         
-                                    />
+                                        <input
+                                            type="text"
+                                            className="form-control mt-1"
+                                            placeholder="Enter telephone number"
+                                        />
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="row">                               
-                                <div class="col-25">
-                                    <label>Date of Birth</label> </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label>Address</label>
+                                    </div>
                                     <div class="col-75">
-                                    <input
-                                        type="date"
-                                        className="form-control mt-1"                                        
-                                    />
+                                        <input
+                                            type="text"
+                                            className="form-control mt-1"
+                                            placeholder="Enter address"
+                                        />
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="row">                               
-                            <div class="col-25">
-                                <label>Gender</label> </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label>Email Address</label>
+                                    </div>
                                     <div class="col-75">
-                                    <input type="radio" id="male" name="gender" value="Male">
-                                    <label for="male">Male</label>
-                                    <input type="radio" id="female" name="gender" value="Female">
-                                    <label for="female">Female</label><br>
-                            </div>
-                            </div>
+                                        <input
+                                            type="email"
+                                            className="form-control mt-1"
+                                            placeholder="Enter email address"
+                                            size="48"
+                                        />
+                                    </div>
+                                </div>
 
-                            <div class="row">                               
-                            <div class="col-25">
-                                <label>Username</label> </div>
-                                <div class="col-75">
-                                <input
-                                    type="text"
-                                    className="form-control mt-1"
-                                    placeholder="Enter username"                                     
-                                />
-                            </div>
-                        </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label>Date of Birth</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <input type="date" className="form-control mt-1" />
+                                    </div>
+                                </div>
 
-                        <div class="row">                               
-                            <div class="col-25">
-                                <label>Password</label> </div>
-                                <div class="col-75">
-                                <input
-                                    type="password"
-                                    className="form-control mt-1"
-                                    placeholder="Enter password"
-                                    size ="48"                                
-                                />
-                            </div>
-                        </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label>Gender</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <input type="radio" id="male" name="gender" value="Male" />
+                                        <label for="male">Male</label>
+                                        <input type="radio" id="female" name="gender" value="Female" />
+                                        <label for="female">Female</label>
+                                        <br />
+                                    </div>
+                                </div>
 
-                            <br>
-                            <div class="row">
-                                <input type="submit" value="Submit">
-                            </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label>Username</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <input
+                                            type="text"
+                                            className="form-control mt-1"
+                                            placeholder="Enter username"
+                                        />
+                                    </div>
+                                </div>
 
-                            <br>
-                            
-                                <button class="backbutton" formAction="/Manager" type="submit" color=green><span>Back </span></button>
-                            
-                    
-                    </form>
-                </div>
-            </body>
-        </html>
-    `;
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label>Password</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <input
+                                            type="password"
+                                            className="form-control mt-1"
+                                            placeholder="Enter password"
+                                            size="48"
+                                        />
+                                    </div>
+                                </div>
 
-    return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;
-}
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label>Confirm Password</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <input
+                                            type="password"
+                                            className="form-control mt-1"
+                                            placeholder="Confirm password"
+                                            size="48"
+                                        />
+                                    </div>
+                                </div>
+
+                                <br />
+                                <div class="row">
+                                    <input type="submit" value="Submit" />
+                                </div>
+
+                                <br />
+
+                                <button class="backbutton" formAction="/Manager" type="submit" color="green">
+                                    <span>Back </span>
+                                </button>
+
+                                </form>
+                                </div>
+                                </body>
+                                </html>
+                                `;
+
+                                return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;
+                                }
