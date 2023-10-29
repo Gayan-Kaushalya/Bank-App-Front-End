@@ -27,6 +27,7 @@ import { ManualAccount } from "./Components/ManualAccount"
 import { ChooseAccount } from "./Components/ChooseAccount"
 import { CreateSavings } from "./Components/CreateSavings"
 import { CreateCurrent } from "./Components/CreateCurrent"
+import { Transaction } from "./Components/Transaction"
 
 export default function App() {
   return (
@@ -58,6 +59,7 @@ export default function App() {
         <Route path="/chooseaccount" element={<ChooseAccount />} />
         <Route path="/createsavings" element={<CreateSavings />} />
         <Route path="/createcurrent" element={<CreateCurrent />} />
+        <Route path="/transaction" element={<Transaction />} />
       </Routes>
     </BrowserRouter>
   );
