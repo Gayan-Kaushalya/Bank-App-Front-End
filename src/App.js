@@ -28,6 +28,8 @@ import { ChooseAccount } from "./Components/ChooseAccount"
 import { CreateSavings } from "./Components/CreateSavings"
 import { CreateCurrent } from "./Components/CreateCurrent"
 import { Transaction } from "./Components/Transaction"
+import { ApplyLoan } from "./Components/ApplyLoan"
+import { CreateRequest } from "./Components/CreateRequest"
 
 export default function App() {
   return (
@@ -60,6 +62,8 @@ export default function App() {
         <Route path="/createsavings" element={<CreateSavings />} />
         <Route path="/createcurrent" element={<CreateCurrent />} />
         <Route path="/transaction" element={<Transaction />} />
+        <Route path="/applyloan" element={<ApplyLoan />} />
+        <Route path="/createrequest" element={<CreateRequest />} />
       </Routes>
     </BrowserRouter>
   );
