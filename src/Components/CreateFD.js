@@ -24,20 +24,6 @@ export function CreateFD() {
                                     />
                                 </div>
                             </div>
-                                                    
-                            <div class="row">
-                                <div class="col-25">
-                                    <label>To</label>
-                                </div>
-                                <div class="col-75">
-                                    <input
-                                        type="number"
-                                        className="form-control mt-1"
-                                        placeholder="Enter the receipient's account number"
-                                        size="48"
-                                    />
-                                </div>
-                            </div>
 
                             <div class="row">                               
                                 <div class="col-25">
@@ -51,6 +37,20 @@ export function CreateFD() {
                                     />
                                 </div>
                             </div>
+
+                            <div class="row">
+                            <div class="col-25">
+                                <label for="fdtype">FD Plan Type</label>
+                            </div>
+                            <div class="col-75">
+                                <select id="fdtype" name="fdtype">
+                                    <option value="none">Choose an option</option>
+                                    <option value="six">6 Months</option>
+                                    <option value="one">1 Year</option>
+                                    <option value="three">3 Years</option>
+                                </select>
+                            </div>
+                        </div>
 
                             <div class="row">
                                 <div class="col-25">
