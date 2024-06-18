@@ -7,7 +7,7 @@ export function CreateEmployee() {
         <html>
             <body>
                 <div class="Auth-form-container-big">
-                    <form class="Auth-form" action="/Manager">
+                    <form class="Auth-form" action="/Admin">
                         <div class="Auth-form-content">
                             <h3 class="Auth-form-title" align="center">Fill the details of your employee</h3>
 
@@ -196,7 +196,7 @@ export function CreateEmployee() {
 
                                 <br />
 
-                                <button class="backbutton" formAction="/Manager" type="submit" color="green">
+                                <button class="backbutton" formAction="/Admin" type="submit" color="green">
                                     <span>Back </span>
                                 </button>
 
